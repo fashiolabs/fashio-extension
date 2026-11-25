@@ -50,13 +50,25 @@ Made by Fashio — AI fashion model photos for e-commerce, fashiolabs.com.
 ## Single purpose (CWS field)
 Help fashion sellers check and prepare product listings: audit a product page's images and text against marketplace guidance and build a size chart for the listing.
 
-## Permission justifications
-- activeTab: read the product page the user is on when they click the toolbar icon (image list, title, description).
-- scripting: inject the read-only collector script into that page and briefly outline an image when the user asks where it is.
-- storage: remember the selected marketplace.
-- contextMenus: "Create an on-model photo with Fashio" on images (opens fashiolabs.com) and "Size chart builder" on the toolbar icon.
-- optional host permission <all_urls>: requested only when the user clicks "Allow image reading", so product images hosted on a different server (store CDNs) can be read for size, file size and background checks. Never requested automatically.
-- Remote code: No. All code is in the package.
+## Permission justifications (paste each into its own CWS field)
+
+**activeTab**
+Read the product page the user is on when they click the toolbar icon (image list, title, description).
+
+**scripting**
+Inject the read-only collector script into that page and briefly outline an image when the user asks where it is.
+
+**storage**
+Remember the selected marketplace.
+
+**contextMenus**
+"Create an on-model photo with Fashio" on images (opens fashiolabs.com) and "Size chart builder" on the toolbar icon.
+
+**optional host permission <all_urls>**
+Requested only when the user clicks "Allow image reading", so product images hosted on a different server (store CDNs) can be read for size, file size and background checks. Never requested automatically.
+
+**Remote code**
+No. All code is in the package.
 
 ## Data usage (CWS privacy tab)
 Collects nothing — tick none of the data types. Page content and images are processed locally and never transmitted.
@@ -75,3 +87,48 @@ Firefox data_collection_permissions: required ["none"] (already in the Firefox m
 ## Before submitting
 - fashiolabs.com/extension landing (install/uninstall URLs + #privacy) must be live.
 - Marketplace numbers re-checked on the source pages listed in src/specs.ts (read 2026-11-25).
+
+
+## CWS panel — every field, in panel order
+Nothing on this list is optional to check; fields marked (leave empty) really stay empty.
+
+### Package
+Upload `dist/fashio-extension-chrome-<version>.zip`.
+
+### Store listing
+- Description: "Description" section above (paste as-is).
+- Category: Tools (Chrome: "Tools"; Edge: "Productivity")
+- Language: English (other languages come from _locales automatically).
+- Store icon: static/icons/128.png
+- Screenshots: every store/screenshot-*.png (1280×800), in file-name order.
+- Small promo tile: store/promo-small-440x280.png
+- Marquee promo tile, promo video: (leave empty)
+- Official URL: https://fashiolabs.com (shows only after the domain is verified in Search Console with this same Google account)
+- Homepage URL: https://fashiolabs.com/extension
+- Support URL: https://fashiolabs.com/extension
+- Mature content: No
+
+### Privacy
+- Single purpose: "Single purpose" section above.
+- Permission justifications: one field per permission, text from "Permission justifications" above.
+- Are you using remote code? **No** (justification field: leave empty)
+- Data usage — "What user data do you plan to collect?": tick **none** of the 9 boxes
+  (personally identifiable, health, financial/payment, authentication, personal communications,
+  location, web history, user activity, website content). Reading the open page or camera
+  locally is not "collecting": nothing leaves the browser.
+- Data usage — tick **all 3** certifications (not sold/transferred, not used for unrelated
+  purposes, not used for creditworthiness/lending).
+- Privacy policy URL: https://fashiolabs.com/extension#privacy (must be live before "Submit for review")
+
+### Distribution
+- Payments: Free (no in-app purchases)
+- Visibility: Public
+- Regions: All regions
+
+### Test instructions
+- Doesn't need one. Open any product page (e.g. a shop listing), click the toolbar icon, pick a marketplace preset; the image audit and listing text checks run on that page. The size chart builder is in the popup.
+- Username / password: (leave empty)
+
+### Account (once per developer account)
+- Trader declaration: non-trader (user's decision 2026-11-25)
+- Publisher display name: brand name; verify the contact email.
