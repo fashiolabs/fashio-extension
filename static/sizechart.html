@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title data-i18n="scTitle"></title>
+  <link rel="stylesheet" href="ui.css" />
+</head>
+<body class="page">
+  <header class="brand">
+    <span class="mark">F</span>
+    <div><strong>Fashio</strong> <span data-i18n="headerSub"></span></div>
+  </header>
+  <main class="wrap">
+    <section class="card">
+      <h1 data-i18n="scTitle"></h1>
+      <p class="note" data-i18n="scIntro"></p>
+    </section>
+    <section class="card">
+      <div class="controls">
+        <fieldset><legend data-i18n="scFit"></legend>
+          <div class="pills" id="gender">
+            <label><input type="radio" name="g" value="women" checked /><span data-i18n="scWomen"></span></label>
+            <label><input type="radio" name="g" value="men" /><span data-i18n="scMen"></span></label>
+          </div>
+        </fieldset>
+        <fieldset><legend data-i18n="scUnit"></legend>
+          <div class="pills" id="unit">
+            <label><input type="radio" name="u" value="cm" checked />cm</label>
+            <label><input type="radio" name="u" value="in" />inch</label>
+          </div>
+        </fieldset>
+        <fieldset><legend data-i18n="scSystems"></legend><div class="pills" id="systems"></div></fieldset>
+      </div>
+      <div class="controls" style="margin-top:14px">
+        <fieldset><legend data-i18n="scSizes"></legend><div class="pills" id="sizes"></div></fieldset>
+      </div>
+    </section>
+    <section class="card">
+      <div style="overflow:auto"><table class="chart" id="chart"></table></div>
+      <p class="note" data-i18n="scEditHint"></p>
+      <div class="actions">
+        <button id="copyHtml" data-i18n="scCopyHtml"></button>
+        <button id="copyCsv" class="secondary" data-i18n="scCopyCsv"></button>
+        <button id="downloadCsv" class="secondary" data-i18n="scDownloadCsv"></button>
+        <button id="reset" class="secondary" data-i18n="scReset"></button>
+        <span class="copied" id="copied" hidden data-i18n="scCopied"></span>
+      </div>
+      <p class="note" data-i18n="scAccuracy"></p>
+      <p class="note" id="plusNote" data-i18n="scPlusNote"></p>
+    </section>
+    <section class="card">
+      <p class="note" data-i18n="ctaOnModelHint"></p>
+      <div class="actions"><button id="openFashio" data-i18n="ctaOnModel"></button></div>
+    </section>
+  </main>
+  <script src="sizechart.js"></script>
+</body>
+</html>

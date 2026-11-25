@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="ui.css" />
+</head>
+<body class="popup">
+  <header class="brand">
+    <span class="mark">F</span>
+    <div><strong>Fashio</strong> <span data-i18n="headerSub"></span></div>
+  </header>
+
+  <div class="bar">
+    <label for="market" data-i18n="marketplace"></label>
+    <select id="market"></select>
+  </div>
+
+  <nav class="tabs">
+    <button data-tab="images" class="on" data-i18n="tabImages"></button>
+    <button data-tab="text" data-i18n="tabText"></button>
+    <button data-tab="tools" data-i18n="tabTools"></button>
+  </nav>
+
+  <p class="notice" id="notice" hidden></p>
+
+  <section id="images" class="pane">
+    <p class="summary" id="imgSummary" data-i18n="scanning"></p>
+    <p class="hint" data-i18n="servedNote"></p>
+    <div class="grant" id="grant" hidden>
+      <span data-i18n="grantText"></span>
+      <button id="grantBtn" data-i18n="grantBtn"></button>
+    </div>
+    <ol id="imgList" class="imgs"></ol>
+  </section>
+
+  <section id="text" class="pane" hidden>
+    <div id="textFields"></div>
+    <ul id="textChecks" class="checks"></ul>
+    <p class="hint" id="altSummary"></p>
+  </section>
+
+  <section id="tools" class="pane" hidden>
+    <button class="primary" id="openSizeChart" data-i18n="openSizeChart"></button>
+    <p class="hint" data-i18n="sizeChartHint"></p>
+    <button class="cta" id="openFashio" data-i18n="ctaOnModel"></button>
+    <p class="hint" data-i18n="ctaOnModelHint"></p>
+    <h3 data-i18n="sourcesTitle"></h3>
+    <ul id="sources" class="sources"></ul>
+  </section>
+
+  <footer>
+    <p data-i18n="privacy"></p>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>

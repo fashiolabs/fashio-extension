@@ -1,0 +1,412 @@
+{
+ "chkRecLongCited": {
+  "message": "Commonly cited Amazon guidance: longest side $P1$ px or more (this image: $P2$ px) — confirm in Seller Central",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkFillCited": {
+  "message": "Commonly cited Amazon guidance: product fills about $P1$% of the frame (estimate: $P2$%) — confirm in Seller Central",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "fileError": {
+  "message": "The page links this image but the file returns HTTP $P1$",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "extName": {
+  "message": "Fashio Listing Helper for Fashion Sellers"
+ },
+ "extDesc": {
+  "message": "Check product photos against marketplace image rules, review listing text length and build size charts for clothing listings."
+ },
+ "menuOnModel": {
+  "message": "Create an on-model photo with Fashio"
+ },
+ "menuSizeChart": {
+  "message": "Size chart builder"
+ },
+ "headerSub": {
+  "message": "Listing Helper"
+ },
+ "marketplace": {
+  "message": "Marketplace"
+ },
+ "tabImages": {
+  "message": "Images"
+ },
+ "tabText": {
+  "message": "Listing text"
+ },
+ "tabTools": {
+  "message": "Tools"
+ },
+ "scanning": {
+  "message": "Reading this page…"
+ },
+ "servedNote": {
+  "message": "Checks the image files this page serves. Your original upload may be larger than what the store shows."
+ },
+ "grantText": {
+  "message": "Some images are on another server and can't be read yet."
+ },
+ "grantBtn": {
+  "message": "Allow image reading"
+ },
+ "openSizeChart": {
+  "message": "Open the size chart builder"
+ },
+ "sizeChartHint": {
+  "message": "US / UK / EU / FR / IT / JP sizes with bust, waist and hip in cm or inches. Copy as HTML or CSV."
+ },
+ "ctaOnModel": {
+  "message": "Create on-model photos with Fashio"
+ },
+ "ctaOnModelHint": {
+  "message": "Turn a flat lay or mannequin photo into on-model images on fashiolabs.com. Opens the site; nothing is uploaded by this extension."
+ },
+ "sourcesTitle": {
+  "message": "Where these rules come from"
+ },
+ "privacy": {
+  "message": "No account, no tracking. Pages and images are checked inside your browser."
+ },
+ "imgSummary": {
+  "message": "$P1$ large images on this page ($P2$ listed in the product data)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "imgNone": {
+  "message": "No large product images found on this page."
+ },
+ "showOnPage": {
+  "message": "Show on page"
+ },
+ "tagMain": {
+  "message": "Main"
+ },
+ "tagProductData": {
+  "message": "Product data"
+ },
+ "sizeLoading": {
+  "message": "size loading…"
+ },
+ "cantRead": {
+  "message": "Can't read this image's pixels or size from here"
+ },
+ "altMissing": {
+  "message": "No alt text"
+ },
+ "chars": {
+  "message": "$P1$ characters",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "notFound": {
+  "message": "not found"
+ },
+ "fieldTitle": {
+  "message": "Product title"
+ },
+ "fieldPageTitle": {
+  "message": "Page title (browser tab)"
+ },
+ "fieldMetaDesc": {
+  "message": "Meta description"
+ },
+ "fieldProductDesc": {
+  "message": "Product description (structured data)"
+ },
+ "noTextRules": {
+  "message": "No published text length rule for $P1$ — lengths shown for reference.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "noProductData": {
+  "message": "No Product structured data (JSON-LD) found on this page"
+ },
+ "altSummary": {
+  "message": "$P1$ of $P2$ images have no alt text.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "notAvailable": {
+  "message": "This page can't be checked (browser pages, the web store). Open a product page."
+ },
+ "chkNoSize": {
+  "message": "Size not known yet"
+ },
+ "chkMinLong": {
+  "message": "Longest side at least $P1$ px (this image: $P2$ px)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkRecLong": {
+  "message": "Recommended longest side $P1$ px or more (this image: $P2$ px)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMinBothMain": {
+  "message": "First photo at least $P1$ px wide and tall (this image: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkRecBoth": {
+  "message": "Recommended at least $P1$ px wide and tall (this image: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMinWH": {
+  "message": "Minimum $P1$ px (this image: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkRecWH": {
+  "message": "Recommended $P1$ px (this image: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMaxWH": {
+  "message": "Maximum $P1$ px (this image: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMaxMP": {
+  "message": "Maximum $P1$ megapixels (this image: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkRatio": {
+  "message": "Aspect ratio $P1$ width:height (this image: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMaxFile": {
+  "message": "File under $P1$ MB (served file: $P2$ MB)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkWhiteUnknown": {
+  "message": "White background: can't read the pixels"
+ },
+ "chkWhitePure": {
+  "message": "Main image edges are pure white"
+ },
+ "chkWhiteNear": {
+  "message": "Edges look white but only $P1$% are pure white (255, 255, 255)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "chkWhiteNo": {
+  "message": "Main image background is not white"
+ },
+ "chkFill": {
+  "message": "Product should fill about $P1$% of the frame (estimate: $P2$%)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkTitleMax": {
+  "message": "Title up to $P1$ characters (now $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkTitleRec": {
+  "message": "Recommended title up to $P1$ characters (now $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMetaMissing": {
+  "message": "No meta description"
+ },
+ "chkMetaRec": {
+  "message": "Recommended meta description up to $P1$ characters (now $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "scTitle": {
+  "message": "Size chart builder"
+ },
+ "scIntro": {
+  "message": "Build a size chart for your listing. It starts from standard ready-to-wear conversions; replace the measurements with your garment's own before you publish."
+ },
+ "scFit": {
+  "message": "Fit"
+ },
+ "scWomen": {
+  "message": "Women"
+ },
+ "scMen": {
+  "message": "Men"
+ },
+ "scUnit": {
+  "message": "Unit"
+ },
+ "scSystems": {
+  "message": "Size systems"
+ },
+ "scSizes": {
+  "message": "Sizes you sell"
+ },
+ "scEditHint": {
+  "message": "Measurement cells are editable — type your own values."
+ },
+ "scCopyHtml": {
+  "message": "Copy HTML code"
+ },
+ "scCopyCsv": {
+  "message": "Copy CSV"
+ },
+ "scDownloadCsv": {
+  "message": "Download CSV"
+ },
+ "scReset": {
+  "message": "Reset measurements"
+ },
+ "scCopied": {
+  "message": "Copied"
+ },
+ "scAccuracy": {
+  "message": "These are standard ready-to-wear conversions anchored to body measurements. Brands vary by up to a full size because of vanity sizing and house blocks."
+ },
+ "scPlusNote": {
+  "message": "Straight-size letters (XL, XXL, XXXL) and plus-size letters (1X, 2X, 3X) are different scales; plus-size is cut roomier at the same nominal label."
+ },
+ "scSize": {
+  "message": "Size"
+ },
+ "m_bust": {
+  "message": "Bust"
+ },
+ "m_waist": {
+  "message": "Waist"
+ },
+ "m_hip": {
+  "message": "Hip"
+ },
+ "m_chest": {
+  "message": "Chest"
+ },
+ "m_neck": {
+  "message": "Neck"
+ }
+}

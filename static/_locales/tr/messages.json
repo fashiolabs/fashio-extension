@@ -1,0 +1,412 @@
+{
+ "chkRecLongCited": {
+  "message": "Sık aktarılan Amazon önerisi: uzun kenar $P1$ px veya üstü (bu görsel: $P2$ px) — Seller Central'da doğrula",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkFillCited": {
+  "message": "Sık aktarılan Amazon önerisi: ürün karenin yaklaşık %$P1$ kadarını doldurur (tahmin: %$P2$) — Seller Central'da doğrula",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "fileError": {
+  "message": "Sayfa bu görsele bağlanıyor ama dosya HTTP $P1$ döndürüyor",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "extName": {
+  "message": "Fashio Listing Helper: Moda Satıcıları İçin"
+ },
+ "extDesc": {
+  "message": "Ürün fotoğraflarını pazar yeri görsel kurallarına göre denetle, ilan metni uzunluğunu kontrol et, giyim için beden tablosu oluştur."
+ },
+ "menuOnModel": {
+  "message": "Fashio ile mankenli fotoğraf oluştur"
+ },
+ "menuSizeChart": {
+  "message": "Beden tablosu oluşturucu"
+ },
+ "headerSub": {
+  "message": "İlan Yardımcısı"
+ },
+ "marketplace": {
+  "message": "Pazar yeri"
+ },
+ "tabImages": {
+  "message": "Görseller"
+ },
+ "tabText": {
+  "message": "İlan metni"
+ },
+ "tabTools": {
+  "message": "Araçlar"
+ },
+ "scanning": {
+  "message": "Sayfa okunuyor…"
+ },
+ "servedNote": {
+  "message": "Bu sayfanın sunduğu görsel dosyaları denetlenir. Yüklediğin orijinal, mağazanın gösterdiğinden büyük olabilir."
+ },
+ "grantText": {
+  "message": "Bazı görseller başka bir sunucuda, henüz okunamıyor."
+ },
+ "grantBtn": {
+  "message": "Görselleri okumaya izin ver"
+ },
+ "openSizeChart": {
+  "message": "Beden tablosu oluşturucuyu aç"
+ },
+ "sizeChartHint": {
+  "message": "Göğüs, bel ve basen ölçüleriyle US / UK / EU / FR / IT / JP bedenleri, cm veya inç. HTML ya da CSV olarak kopyala."
+ },
+ "ctaOnModel": {
+  "message": "Fashio ile mankenli fotoğraf oluştur"
+ },
+ "ctaOnModelHint": {
+  "message": "Düz serme ya da cansız manken fotoğrafını fashiolabs.com'da mankenli görsele çevir. Siteyi açar; eklenti hiçbir şey yüklemez."
+ },
+ "sourcesTitle": {
+  "message": "Bu kurallar nereden geliyor"
+ },
+ "privacy": {
+  "message": "Hesap yok, takip yok. Sayfalar ve görseller tarayıcında denetlenir."
+ },
+ "imgSummary": {
+  "message": "Bu sayfada $P1$ büyük görsel var (ürün verisinde $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "imgNone": {
+  "message": "Bu sayfada büyük ürün görseli bulunamadı."
+ },
+ "showOnPage": {
+  "message": "Sayfada göster"
+ },
+ "tagMain": {
+  "message": "Ana görsel"
+ },
+ "tagProductData": {
+  "message": "Ürün verisi"
+ },
+ "sizeLoading": {
+  "message": "boyut yükleniyor…"
+ },
+ "cantRead": {
+  "message": "Bu görselin pikselleri ya da boyutu buradan okunamıyor"
+ },
+ "altMissing": {
+  "message": "Alt metin yok"
+ },
+ "chars": {
+  "message": "$P1$ karakter",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "notFound": {
+  "message": "bulunamadı"
+ },
+ "fieldTitle": {
+  "message": "Ürün başlığı"
+ },
+ "fieldPageTitle": {
+  "message": "Sayfa başlığı (sekme)"
+ },
+ "fieldMetaDesc": {
+  "message": "Meta açıklama"
+ },
+ "fieldProductDesc": {
+  "message": "Ürün açıklaması (yapılandırılmış veri)"
+ },
+ "noTextRules": {
+  "message": "$P1$ yayımlanmış bir metin uzunluğu kuralı vermiyor; uzunluklar bilgi amaçlı.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "noProductData": {
+  "message": "Bu sayfada Product yapılandırılmış verisi (JSON-LD) yok"
+ },
+ "altSummary": {
+  "message": "$P2$ görselden $P1$ tanesinin alt metni yok.",
+  "placeholders": {
+   "p2": {
+    "content": "$2"
+   },
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "notAvailable": {
+  "message": "Bu sayfa denetlenemiyor (tarayıcı sayfaları, mağaza). Bir ürün sayfası aç."
+ },
+ "chkNoSize": {
+  "message": "Boyut henüz bilinmiyor"
+ },
+ "chkMinLong": {
+  "message": "Uzun kenar en az $P1$ px (bu görsel: $P2$ px)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkRecLong": {
+  "message": "Önerilen: uzun kenar $P1$ px veya üstü (bu görsel: $P2$ px)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMinBothMain": {
+  "message": "İlk fotoğraf en az $P1$ px en ve boy (bu görsel: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkRecBoth": {
+  "message": "Önerilen: en az $P1$ px en ve boy (bu görsel: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMinWH": {
+  "message": "En az $P1$ px (bu görsel: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkRecWH": {
+  "message": "Önerilen $P1$ px (bu görsel: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMaxWH": {
+  "message": "En fazla $P1$ px (bu görsel: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMaxMP": {
+  "message": "En fazla $P1$ megapiksel (bu görsel: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkRatio": {
+  "message": "En:boy oranı $P1$ (bu görsel: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMaxFile": {
+  "message": "Dosya $P1$ MB altında (sunulan dosya: $P2$ MB)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkWhiteUnknown": {
+  "message": "Beyaz arka plan: pikseller okunamıyor"
+ },
+ "chkWhitePure": {
+  "message": "Ana görselin kenarları saf beyaz"
+ },
+ "chkWhiteNear": {
+  "message": "Kenarlar beyaz görünüyor ama yalnız %$P1$ saf beyaz (255, 255, 255)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "chkWhiteNo": {
+  "message": "Ana görselin arka planı beyaz değil"
+ },
+ "chkFill": {
+  "message": "Ürün karenin yaklaşık %$P1$ kadarını doldurmalı (tahmin: %$P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkTitleMax": {
+  "message": "Başlık en fazla $P1$ karakter (şu an $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkTitleRec": {
+  "message": "Önerilen: başlık en fazla $P1$ karakter (şu an $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMetaMissing": {
+  "message": "Meta açıklama yok"
+ },
+ "chkMetaRec": {
+  "message": "Önerilen: meta açıklama en fazla $P1$ karakter (şu an $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "scTitle": {
+  "message": "Beden tablosu oluşturucu"
+ },
+ "scIntro": {
+  "message": "İlanın için beden tablosu oluştur. Standart hazır giyim dönüşümleriyle başlar; yayınlamadan önce ölçüleri kendi ürününün ölçüleriyle değiştir."
+ },
+ "scFit": {
+  "message": "Kalıp"
+ },
+ "scWomen": {
+  "message": "Kadın"
+ },
+ "scMen": {
+  "message": "Erkek"
+ },
+ "scUnit": {
+  "message": "Birim"
+ },
+ "scSystems": {
+  "message": "Beden sistemleri"
+ },
+ "scSizes": {
+  "message": "Sattığın bedenler"
+ },
+ "scEditHint": {
+  "message": "Ölçü hücreleri düzenlenebilir; kendi değerlerini yaz."
+ },
+ "scCopyHtml": {
+  "message": "HTML kodunu kopyala"
+ },
+ "scCopyCsv": {
+  "message": "CSV kopyala"
+ },
+ "scDownloadCsv": {
+  "message": "CSV indir"
+ },
+ "scReset": {
+  "message": "Ölçüleri sıfırla"
+ },
+ "scCopied": {
+  "message": "Kopyalandı"
+ },
+ "scAccuracy": {
+  "message": "Vücut ölçüsüne dayalı standart hazır giyim dönüşümleri. Markalar vanity sizing ve kendi kalıpları yüzünden bir bedene kadar sapabilir."
+ },
+ "scPlusNote": {
+  "message": "Normal harf bedenler (XL, XXL, XXXL) ile büyük beden harfleri (1X, 2X, 3X) ayrı ölçeklerdir; aynı etikette büyük beden daha bol kesilir."
+ },
+ "scSize": {
+  "message": "Beden"
+ },
+ "m_bust": {
+  "message": "Göğüs"
+ },
+ "m_waist": {
+  "message": "Bel"
+ },
+ "m_hip": {
+  "message": "Basen"
+ },
+ "m_chest": {
+  "message": "Göğüs çevresi"
+ },
+ "m_neck": {
+  "message": "Boyun"
+ }
+}

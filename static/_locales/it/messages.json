@@ -1,0 +1,412 @@
+{
+ "chkRecLongCited": {
+  "message": "Indicazione Amazon spesso citata: lato più lungo di $P1$ px o più (questa immagine: $P2$ px) — verifica in Seller Central",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkFillCited": {
+  "message": "Indicazione Amazon spesso citata: il prodotto occupa circa il $P1$% dell'inquadratura (stima: $P2$%) — verifica in Seller Central",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "fileError": {
+  "message": "La pagina collega questa immagine ma il file restituisce HTTP $P1$",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "extName": {
+  "message": "Fashio Listing Helper per venditori di moda"
+ },
+ "extDesc": {
+  "message": "Controlla le foto prodotto con le regole immagine dei marketplace, la lunghezza dei testi e crea tabelle taglie per l'abbigliamento."
+ },
+ "menuOnModel": {
+  "message": "Crea una foto indossata con Fashio"
+ },
+ "menuSizeChart": {
+  "message": "Generatore di tabelle taglie"
+ },
+ "headerSub": {
+  "message": "Listing Helper"
+ },
+ "marketplace": {
+  "message": "Marketplace"
+ },
+ "tabImages": {
+  "message": "Immagini"
+ },
+ "tabText": {
+  "message": "Testo dell'annuncio"
+ },
+ "tabTools": {
+  "message": "Strumenti"
+ },
+ "scanning": {
+  "message": "Lettura della pagina…"
+ },
+ "servedNote": {
+  "message": "Vengono controllati i file serviti da questa pagina. L'originale caricato può essere più grande di quello mostrato dal negozio."
+ },
+ "grantText": {
+  "message": "Alcune immagini sono su un altro server e non si possono ancora leggere."
+ },
+ "grantBtn": {
+  "message": "Consenti lettura immagini"
+ },
+ "openSizeChart": {
+  "message": "Apri il generatore di tabelle taglie"
+ },
+ "sizeChartHint": {
+  "message": "Taglie US / UK / EU / FR / IT / JP con seno, vita e fianchi in cm o pollici. Copia come HTML o CSV."
+ },
+ "ctaOnModel": {
+  "message": "Crea foto indossate con Fashio"
+ },
+ "ctaOnModelHint": {
+  "message": "Trasforma una foto still life o su manichino in immagini indossate su fashiolabs.com. Apre il sito; l'estensione non carica nulla."
+ },
+ "sourcesTitle": {
+  "message": "Da dove vengono queste regole"
+ },
+ "privacy": {
+  "message": "Nessun account, nessun tracciamento. Pagine e immagini vengono controllate nel tuo browser."
+ },
+ "imgSummary": {
+  "message": "$P1$ immagini grandi in questa pagina ($P2$ nei dati prodotto)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "imgNone": {
+  "message": "Nessuna immagine prodotto grande trovata in questa pagina."
+ },
+ "showOnPage": {
+  "message": "Mostra nella pagina"
+ },
+ "tagMain": {
+  "message": "Principale"
+ },
+ "tagProductData": {
+  "message": "Dati prodotto"
+ },
+ "sizeLoading": {
+  "message": "dimensione in caricamento…"
+ },
+ "cantRead": {
+  "message": "Impossibile leggere pixel o dimensione di questa immagine da qui"
+ },
+ "altMissing": {
+  "message": "Nessun testo alternativo"
+ },
+ "chars": {
+  "message": "$P1$ caratteri",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "notFound": {
+  "message": "non trovato"
+ },
+ "fieldTitle": {
+  "message": "Titolo del prodotto"
+ },
+ "fieldPageTitle": {
+  "message": "Titolo della pagina (scheda)"
+ },
+ "fieldMetaDesc": {
+  "message": "Meta description"
+ },
+ "fieldProductDesc": {
+  "message": "Descrizione prodotto (dati strutturati)"
+ },
+ "noTextRules": {
+  "message": "$P1$ non pubblica una regola sulla lunghezza dei testi: lunghezze indicative.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "noProductData": {
+  "message": "Nessun dato strutturato Product (JSON-LD) in questa pagina"
+ },
+ "altSummary": {
+  "message": "$P1$ immagini su $P2$ non hanno testo alternativo.",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "notAvailable": {
+  "message": "Questa pagina non si può controllare (pagine del browser, store). Apri una pagina prodotto."
+ },
+ "chkNoSize": {
+  "message": "Dimensione non ancora nota"
+ },
+ "chkMinLong": {
+  "message": "Lato più lungo di almeno $P1$ px (questa immagine: $P2$ px)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkRecLong": {
+  "message": "Consigliato: lato più lungo di $P1$ px o più (questa immagine: $P2$ px)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMinBothMain": {
+  "message": "Prima foto di almeno $P1$ px in larghezza e altezza (questa immagine: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkRecBoth": {
+  "message": "Consigliato: almeno $P1$ px in larghezza e altezza (questa immagine: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMinWH": {
+  "message": "Minimo $P1$ px (questa immagine: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkRecWH": {
+  "message": "Consigliato $P1$ px (questa immagine: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMaxWH": {
+  "message": "Massimo $P1$ px (questa immagine: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMaxMP": {
+  "message": "Massimo $P1$ megapixel (questa immagine: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkRatio": {
+  "message": "Proporzioni $P1$ larghezza:altezza (questa immagine: $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMaxFile": {
+  "message": "File sotto $P1$ MB (file servito: $P2$ MB)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkWhiteUnknown": {
+  "message": "Sfondo bianco: pixel non leggibili"
+ },
+ "chkWhitePure": {
+  "message": "I bordi dell'immagine principale sono bianco puro"
+ },
+ "chkWhiteNear": {
+  "message": "I bordi sembrano bianchi ma solo il $P1$% è bianco puro (255, 255, 255)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   }
+  }
+ },
+ "chkWhiteNo": {
+  "message": "Lo sfondo dell'immagine principale non è bianco"
+ },
+ "chkFill": {
+  "message": "Il prodotto dovrebbe occupare circa il $P1$% dell'inquadratura (stima: $P2$%)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkTitleMax": {
+  "message": "Titolo fino a $P1$ caratteri (ora $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkTitleRec": {
+  "message": "Consigliato: titolo fino a $P1$ caratteri (ora $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "chkMetaMissing": {
+  "message": "Nessuna meta description"
+ },
+ "chkMetaRec": {
+  "message": "Consigliato: meta description fino a $P1$ caratteri (ora $P2$)",
+  "placeholders": {
+   "p1": {
+    "content": "$1"
+   },
+   "p2": {
+    "content": "$2"
+   }
+  }
+ },
+ "scTitle": {
+  "message": "Generatore di tabelle taglie"
+ },
+ "scIntro": {
+  "message": "Crea una tabella taglie per il tuo annuncio. Parte dalle conversioni standard del prêt-à-porter; sostituisci le misure con quelle del tuo capo prima di pubblicare."
+ },
+ "scFit": {
+  "message": "Vestibilità"
+ },
+ "scWomen": {
+  "message": "Donna"
+ },
+ "scMen": {
+  "message": "Uomo"
+ },
+ "scUnit": {
+  "message": "Unità"
+ },
+ "scSystems": {
+  "message": "Sistemi di taglie"
+ },
+ "scSizes": {
+  "message": "Taglie che vendi"
+ },
+ "scEditHint": {
+  "message": "Le celle delle misure sono modificabili: inserisci i tuoi valori."
+ },
+ "scCopyHtml": {
+  "message": "Copia codice HTML"
+ },
+ "scCopyCsv": {
+  "message": "Copia CSV"
+ },
+ "scDownloadCsv": {
+  "message": "Scarica CSV"
+ },
+ "scReset": {
+  "message": "Ripristina misure"
+ },
+ "scCopied": {
+  "message": "Copiato"
+ },
+ "scAccuracy": {
+  "message": "Conversioni standard del prêt-à-porter basate sulle misure del corpo. I marchi variano fino a una taglia per vanity sizing e modelli propri."
+ },
+ "scPlusNote": {
+  "message": "Le lettere delle taglie standard (XL, XXL, XXXL) e curvy (1X, 2X, 3X) sono scale diverse; le curvy sono più ampie a parità di etichetta."
+ },
+ "scSize": {
+  "message": "Taglia"
+ },
+ "m_bust": {
+  "message": "Seno"
+ },
+ "m_waist": {
+  "message": "Vita"
+ },
+ "m_hip": {
+  "message": "Fianchi"
+ },
+ "m_chest": {
+  "message": "Torace"
+ },
+ "m_neck": {
+  "message": "Collo"
+ }
+}
