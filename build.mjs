@@ -25,10 +25,10 @@ await build({
 
 function out(target, manifest) {
   const dir = `dist/${target}`;
-  cpSync("static", dir, { recursive: true });
+  cpSync("static", dir, { recursive: true, filter: (f) => !f.endsWith(".DS_Store") });
   for (const e of ENTRIES) copyFileSync(`dist/tmp/${e}.js`, `${dir}/${e}.js`);
   writeFileSync(`${dir}/manifest.json`, JSON.stringify(manifest, null, 2));
-  execSync(`cd ${dir} && zip -qr ../${pkg.name}-${target}-${pkg.version}.zip .`);
+  execSync(`cd ${dir} && zip -qr ../${pkg.name}-${target}-${pkg.version}.zip . -x '*.DS_Store'`);
 }
 
 out("chrome", base);
