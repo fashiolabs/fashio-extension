@@ -30,10 +30,10 @@
   }
  },
  "extName": {
-  "message": "Fashio Listing Helper per venditori di moda"
+  "message": "Fashio: dimensione immagine e tabella taglie"
  },
  "extDesc": {
-  "message": "Controlla le foto prodotto con le regole immagine dei marketplace, la lunghezza dei testi e crea tabelle taglie per l'abbigliamento."
+  "message": "Controlla dimensione immagine, risoluzione e sfondo bianco delle foto prodotto e crea la tabella taglie dell'annuncio."
  },
  "menuOnModel": {
   "message": "Crea una foto indossata con Fashio"
@@ -408,5 +408,14 @@
  },
  "m_neck": {
   "message": "Collo"
+ },
+ "rateText": {
+  "message": "Listing Helper ti è utile? Una breve valutazione nello store aiuta altri venditori a trovarlo."
+ },
+ "rateBtn": {
+  "message": "Valuta"
+ },
+ "rateLater": {
+  "message": "Non ora"
  }
 }

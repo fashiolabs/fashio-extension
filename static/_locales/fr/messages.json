@@ -30,10 +30,10 @@
   }
  },
  "extName": {
-  "message": "Fashio Listing Helper pour vendeurs de mode"
+  "message": "Fashio : taille d'image et guide des tailles"
  },
  "extDesc": {
-  "message": "Vérifiez vos photos produit selon les règles d'image des marketplaces, la longueur des textes et créez des guides des tailles."
+  "message": "Vérifiez la taille d'image, la résolution et le fond blanc de vos photos produit, et créez le guide des tailles de l'annonce."
  },
  "menuOnModel": {
   "message": "Créer une photo portée avec Fashio"
@@ -408,5 +408,14 @@
  },
  "m_neck": {
   "message": "Cou"
+ },
+ "rateText": {
+  "message": "Listing Helper vous est utile ? Une courte note dans la boutique aide d'autres vendeurs à le trouver."
+ },
+ "rateBtn": {
+  "message": "Noter"
+ },
+ "rateLater": {
+  "message": "Plus tard"
  }
 }

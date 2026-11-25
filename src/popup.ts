@@ -1,4 +1,5 @@
 import { api, localize, modelToolUrl, t, type Msg, type PageData, type PageImage } from "./shared";
+import { initRate } from "./rate";
 import { checkImage, checkText, SPECS, type Check, type ImageFacts, type MarketKey, type Spec } from "./specs";
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -199,6 +200,7 @@ async function main() {
       void analyzeAll();
     }
   });
+  void initRate($("rate"));
   await scan();
 }
 

@@ -30,10 +30,10 @@
   }
  },
  "extName": {
-  "message": "Fashio Listing Helper for Fashion Sellers"
+  "message": "Fashio: Image Size Checker & Size Chart Maker"
  },
  "extDesc": {
-  "message": "Check product photos against marketplace image rules, review listing text length and build size charts for clothing listings."
+  "message": "Image size checker for product photos: resolution, ratio and white background vs marketplace rules, plus a size chart maker."
  },
  "menuOnModel": {
   "message": "Create an on-model photo with Fashio"
@@ -408,5 +408,14 @@
  },
  "m_neck": {
   "message": "Neck"
+ },
+ "rateText": {
+  "message": "Has the Listing Helper been useful? A short rating in the store helps other sellers find it."
+ },
+ "rateBtn": {
+  "message": "Rate it"
+ },
+ "rateLater": {
+  "message": "Not now"
  }
 }

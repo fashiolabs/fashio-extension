@@ -132,3 +132,134 @@ Upload `dist/fashio-extension-chrome-<version>.zip`.
 ### Account (once per developer account)
 - Trader declaration: non-trader (user's decision 2026-11-25)
 - Publisher display name: brand name; verify the contact email.
+
+## 1.0.1 update — panel steps (Chrome Web Store)
+Do this only after 1.0.0 is approved (a new upload restarts review).
+
+1. Package → **Upload new package** → `dist/fashio-extension-chrome-1.0.1.zip`.
+   Name and summary come from the zip (`_locales`), nothing to type.
+2. Store listing → language dropdown → for each language below, paste the whole file into **Description**:
+
+| Listing language | Paste file |
+|---|---|
+| English (default) | `store/descriptions/en.md` |
+| German | `store/descriptions/de.md` |
+| Spanish | `store/descriptions/es.md` |
+| French | `store/descriptions/fr.md` |
+| Italian | `store/descriptions/it.md` |
+| Portuguese (Brazil) | `store/descriptions/pt_BR.md` |
+| Portuguese (Portugal) | `store/descriptions/pt_PT.md` |
+| Turkish | `store/descriptions/tr.md` |
+
+   Screenshots, icon and promo tile can stay the same in every language.
+3. Privacy tab: unchanged (the new "rate it" reminder stores only dates on the user's device; nothing is collected).
+4. **Submit for review**.
+
+### What changed in 1.0.1
+- Store name and summary per language now carry the searched terms (table below).
+- Popup shows a one-time "rate it" box after the extension was opened on 5 different days; "Not now" hides it for good. No incentive. Chrome → CWS reviews page, Edge → Edge Add-ons page, Firefox → hidden until `AMO_URL` in `src/rate.ts` is filled in.
+
+### Names, summaries and the searches behind them (Google Ads monthly volume, 2026-11-25)
+| Locale | Name (≤75) | Main terms (volume, market) |
+|---|---|---|
+| en | Fashio: Image Size Checker & Size Chart Maker | image size checker 1,900 · image resolution checker 590 · size chart generator 260 · size chart maker 110 (US) |
+| de | Fashio: Bildgröße prüfen & Größentabelle erstellen | größentabelle 12,100 · bildgröße 1,900 · größentabelle kleidung 590 (DE) |
+| es | Fashio: tamaño de imagen y tabla de tallas | tabla de tallas 390 · tamaño de imagen 320 (ES) |
+| fr | Fashio : taille d'image et guide des tailles | guide des tailles 3,600 · taille image 720 · tableau des tailles 590 (FR) |
+| it | Fashio: dimensione immagine e tabella taglie | tabella taglie 720 · dimensione immagine 590 (IT) |
+| pt_BR | Fashio: tamanho de imagem e tabela de medidas | tabela de medidas 6,600 · tabela de tamanhos 1,600 · tamanho de imagem 1,600 (BR) |
+| pt_PT | Fashio: tamanho de imagem e tabela de tamanhos | tabela de medidas 110 · tabela de tamanhos 90 · tamanho de imagem 70 (PT) |
+| tr | Fashio: Görsel Boyutu Kontrolü ve Beden Tablosu | beden tablosu 8,100 · görsel boyutu 70 (TR) |
+
+Marketplace-specific phrases are tiny (amazon image checker 10, etsy listing helper 30, amazon seller chrome extension 30 in the US),
+so marketplace names stay out of the name and summary. They appear in the description once, as the presets the tool really has,
+with a "trademarks of their owners, not affiliated" line — CWS treats lists of brand names as keyword spam and brand names in a
+title as possible impersonation. "trendyol görsel boyutu" (320, TR) is not used: there is no Trendyol preset.
+
+## Microsoft Edge Add-ons (Partner Center) — every field
+Panel: https://partner.microsoft.com/dashboard/microsoftedge → **Create new extension**.
+
+### Packages
+- Upload `dist/fashio-extension-chrome-1.0.1.zip` (same zip as Chrome).
+
+### Availability
+- Visibility: **Public**
+- Markets: **All markets**
+
+### Properties
+- Category: **Productivity** (alt: Shopping)
+- Privacy policy: **Yes, this extension has a privacy policy** → `https://fashiolabs.com/extension#privacy`
+- Website URL: `https://fashiolabs.com/extension`
+- Support contact details: `https://fashiolabs.com/extension`
+- Mature content: **No**
+
+### Store listings (one per language; languages come from the zip's `_locales`)
+Assets, same for every language:
+- Extension Store logo (300×300): `store/edge-logo-300x300.png`
+- Small promotional tile (440×280): `store/promo-small-440x280.png`
+- Screenshots (1280×800): `store/screenshot-1 … 5`
+- Large promotional tile, YouTube video: leave empty
+
+Description (250–10,000 characters): paste the file from the table in the CWS section (`store/descriptions/<locale>.md`).
+Short description: paste that language's summary (same text as the extension description below).
+
+Search terms (max 7 terms, ≤30 characters each, ≤21 words in total):
+
+| Language | Short description | Search terms (one per box) |
+|---|---|---|
+| English | Image size checker for product photos: resolution, ratio and white background vs marketplace rules, plus a size chart maker. | image size checker · image resolution checker · size chart maker · size chart generator · product photo checker · listing text length · clothing seller tools |
+| German | Bildgröße von Produktfotos prüfen: Auflösung, Seitenverhältnis, weißer Hintergrund nach Marktplatz-Regeln. Plus Größentabelle. | bildgröße prüfen · größentabelle erstellen · größentabelle kleidung · bildauflösung prüfen · produktfotos prüfen · maßtabelle · händler tools |
+| Spanish | Comprueba el tamaño de imagen, la resolución y el fondo blanco de tus fotos de producto y crea la tabla de tallas del anuncio. | tamaño de imagen · tabla de tallas · crear tabla de tallas · resolución de imagen · fotos de producto · vender ropa online · herramientas vendedor |
+| French | Vérifiez la taille d'image, la résolution et le fond blanc de vos photos produit, et créez le guide des tailles de l'annonce. | taille image · guide des tailles · tableau des tailles · résolution image · photos produit · vendre vêtements · outils vendeur |
+| Italian | Controlla dimensione immagine, risoluzione e sfondo bianco delle foto prodotto e crea la tabella taglie dell'annuncio. | dimensione immagine · tabella taglie · risoluzione immagine · foto prodotto · vendere abbigliamento · strumenti venditori |
+| Portuguese (Brazil) | Confira tamanho de imagem, resolução e fundo branco das fotos de produto e monte a tabela de medidas do anúncio. | tamanho de imagem · tabela de medidas · tabela de tamanhos · resolução de imagem · fotos de produto · vender roupa online · ferramentas vendedor |
+| Portuguese (Portugal) | Verifique o tamanho de imagem, a resolução e o fundo branco das fotografias de produto e crie a tabela de tamanhos do anúncio. | tamanho de imagem · tabela de tamanhos · tabela de medidas · resolução de imagem · fotografias de produto · vender roupa online |
+| Turkish | Ürün fotoğraflarında görsel boyutu, çözünürlük ve beyaz arka planı kontrol et; ilan için beden tablosu oluştur. | beden tablosu · beden tablosu oluşturma · görsel boyutu · görsel çözünürlüğü · ürün fotoğrafı · giyim satıcısı · e-ticaret araçları |
+
+### Submit → Notes for certification
+```
+No account or login needed. Open any product page (e.g. a clothing listing in any online shop), click the toolbar icon and pick a marketplace preset: the Images tab lists each product photo with size, ratio and file size checked against that preset; the Listing text tab shows title/description lengths; Tools → Size chart builder opens a local page that builds a size chart (copy HTML/CSV). The optional <all_urls> permission is requested only when the user clicks "Allow image reading", so images on a store CDN can be measured. No data is collected or sent anywhere. Source: https://github.com/fashiolabs/fashio-extension (MIT).
+```
+
+## Firefox Add-ons (AMO) — every field
+Panel: https://addons.mozilla.org/developers/ → **Submit a New Add-on** → **On this site** (listed).
+
+### Upload
+- File: `dist/fashio-extension-firefox-1.0.1.zip`
+- Compatible platforms: **Firefox** and **Firefox for Android** (both ticked)
+- "Do you need to submit source code?" → **Yes**. Upload `dist/fashio-extension-source-1.0.1.zip`
+  (make it with `git archive -o dist/fashio-extension-source-1.0.1.zip v1.0.1` or `HEAD`; the bundle is readable esbuild output, but AMO asks for source whenever a bundler is used).
+
+### Describe add-on (English; other languages via the locale dropdown on the listing's Edit page after submission)
+- Name: comes from the zip (`Fashio: Image Size Checker & Size Chart Maker`)
+- Add-on URL: `fashio-image-size-checker`
+- Summary (≤250): `Image size checker for product photos: resolution, aspect ratio and white background checked against marketplace image rules, listing text length checks, and a size chart maker for clothing listings.`
+- Description: paste `store/descriptions/en.md`
+- This add-on is experimental: **No** · Requires payment / non-free services: **No** (the extension is free; the on-model tool it links to is a separate website)
+- Categories — Firefox: **Shopping** (second, if allowed: Photos, Music & Videos) · Firefox for Android: **Shopping**
+- Tags (pick from AMO's list if offered): shopping, productivity
+- Support email: `hi@fashiolabs.com` · Support website: `https://fashiolabs.com/extension`
+- Homepage: `https://fashiolabs.com/extension`
+- License: **MIT License**
+- Privacy policy: **Yes** → paste:
+  ```
+  No data is collected. Pages and images are read inside your browser and nothing is sent to Fashio or anyone else. Stored on your device only: your chosen marketplace and the days you opened the extension (used once to ask whether you want to rate it). Full policy: https://fashiolabs.com/extension#privacy
+  ```
+- Notes to reviewer:
+  ```
+  The JS in the package is unminified esbuild output (IIFE bundles of src/*.ts). Source: https://github.com/fashiolabs/fashio-extension (MIT) and the attached source zip. Build: Node 20+, `npm ci && npm run build` → dist/firefox (identical files). No remote code, no network requests except fetching product image URLs the user is viewing to measure their pixel size (only after the user grants the optional <all_urls> permission). Test: open any product page, click the toolbar icon, pick a marketplace preset.
+  ```
+
+Localized AMO listing (after submission → Edit Product Page → locale dropdown):
+
+| Locale | Name | Summary | Description |
+|---|---|---|---|
+| Deutsch | from zip | de summary above | `store/descriptions/de.md` |
+| Español | from zip | es summary above | `store/descriptions/es.md` |
+| Français | from zip | fr summary above | `store/descriptions/fr.md` |
+| Italiano | from zip | it summary above | `store/descriptions/it.md` |
+| Português (Brasil) | from zip | pt_BR summary above | `store/descriptions/pt_BR.md` |
+| Português (Portugal) | from zip | pt_PT summary above | `store/descriptions/pt_PT.md` |
+| Türkçe | from zip | tr summary above | `store/descriptions/tr.md` |
+
+After AMO approval: put the listing URL into `AMO_URL` in `src/rate.ts` so Firefox users also see the rating box (next version).

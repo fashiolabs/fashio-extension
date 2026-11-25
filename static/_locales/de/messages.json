@@ -30,10 +30,10 @@
   }
  },
  "extName": {
-  "message": "Fashio Listing-Helfer für Mode-Händler"
+  "message": "Fashio: Bildgröße prüfen & Größentabelle erstellen"
  },
  "extDesc": {
-  "message": "Produktfotos gegen Marktplatz-Bildregeln prüfen, Länge der Angebotstexte checken und Größentabellen für Mode-Angebote erstellen."
+  "message": "Bildgröße von Produktfotos prüfen: Auflösung, Seitenverhältnis, weißer Hintergrund nach Marktplatz-Regeln. Plus Größentabelle."
  },
  "menuOnModel": {
   "message": "Model-Foto mit Fashio erstellen"
@@ -408,5 +408,14 @@
  },
  "m_neck": {
   "message": "Hals"
+ },
+ "rateText": {
+  "message": "Ist der Listing-Helfer nützlich? Eine kurze Bewertung im Store hilft anderen Händlern, ihn zu finden."
+ },
+ "rateBtn": {
+  "message": "Bewerten"
+ },
+ "rateLater": {
+  "message": "Nicht jetzt"
  }
 }

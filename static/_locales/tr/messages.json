@@ -30,10 +30,10 @@
   }
  },
  "extName": {
-  "message": "Fashio Listing Helper: Moda Satıcıları İçin"
+  "message": "Fashio: Görsel Boyutu Kontrolü ve Beden Tablosu"
  },
  "extDesc": {
-  "message": "Ürün fotoğraflarını pazar yeri görsel kurallarına göre denetle, ilan metni uzunluğunu kontrol et, giyim için beden tablosu oluştur."
+  "message": "Ürün fotoğraflarında görsel boyutu, çözünürlük ve beyaz arka planı kontrol et; ilan için beden tablosu oluştur."
  },
  "menuOnModel": {
   "message": "Fashio ile mankenli fotoğraf oluştur"
@@ -408,5 +408,14 @@
  },
  "m_neck": {
   "message": "Boyun"
+ },
+ "rateText": {
+  "message": "Listing Helper işine yaradı mı? Mağazada kısa bir puan, diğer satıcıların onu bulmasına yardım eder."
+ },
+ "rateBtn": {
+  "message": "Puan ver"
+ },
+ "rateLater": {
+  "message": "Şimdi değil"
  }
 }
